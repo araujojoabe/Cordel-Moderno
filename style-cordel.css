@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*header*/
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+   padding-top: 40px; 
+   font-size: 8vw;
+   font-family: sans-serif;
+}
+
+header p{
+    padding-bottom: 40px;
+    font-family: sans-serif;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+header a:hover{
+    background-color: #414040a8;
+    padding: 2px;
+    text-decoration: underline;
+}
+
+header a::after{
+    content: '🔗';
+}
+/*section*/
+section p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    line-height: 2em;
+    font-size: 3vw;
+    font-family: 'Klee One', cursive;
+    font-weight: bold;
+}
+
+/*.img*/
+.img{
+    background-color: darkgray;
+}
+
+#img01{
+    background-image: url(imagens/img01.jpg);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.712);
+    background-attachment: fixed;
+    padding: 15px;
+}
+
+#img01 > p{
+    background-color: #0000008c;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    border-radius: 25px 0px 25px 0px;
+    text-shadow: 1px 1px 2px #00000098;
+}
+
+#img02{
+    background-image: url(imagens/img02.jpg);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.712);
+    background-attachment: fixed; 
+    padding: 15px;
+}
+
+#img02 >p{
+    background-color: #0000008c;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    border-radius: 25px 0px 25px 0px;
+    text-shadow: 1px 1px 2px #00000098;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+footer a::after{
+    content: '🔗';
+}
