@@ -31,7 +31,6 @@ header a{
 header a:hover{
     background-color: #414040a8;
     padding: 2px;
-    text-decoration: underline;
 }
 
 header a::after{
